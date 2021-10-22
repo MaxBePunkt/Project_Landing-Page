@@ -1,0 +1,189 @@
+/* 
+#########################################
+            General
+#########################################
+*/
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* 
+font-family: 'Merienda', cursive;
+font-family: 'Open Sans', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  color: #494a51;
+  font-size: 1rem;
+}
+/* 
+#########################################
+            Header
+#########################################
+*/
+nav {
+  text-align: right;
+}
+header {
+  background: url("https://images.unsplash.com/photo-1574200477644-08bbc44e9f57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80")
+    center/cover no-repeat;
+  min-height: 100vh;
+  padding: 1%;
+  background-attachment: fixed;
+}
+
+nav a {
+  color: #6c605b;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 2%;
+}
+nav a:hover {
+  color: #211e16;
+}
+h1 {
+  text-align: center;
+  font-family: "Merienda", cursive;
+  font-size: 25rem;
+  color: #e5e3e4;
+  margin: 5%;
+  text-shadow: 0px 0px 40px #aba29c;
+  opacity: 0.2;
+}
+/* 
+#########################################
+            Main
+#########################################
+*/
+main {
+  background: url("https://images.unsplash.com/photo-1508669232496-137b159c1cdb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2576&q=80")
+    center top/cover no-repeat;
+  background-attachment: fixed;
+  padding: 5% 3% 0 5%;
+}
+.BackLink {
+  color: #6c605b;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 2%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  bottom: 50%;
+  display: block;
+  text-align: right;
+  z-index: 2000;
+}
+main section {
+  max-width: 1400px;
+  margin: 1% auto 0 auto;
+  position: relative;
+  border-radius: 0 50% 0 0;
+  padding: 5% 10%;
+}
+h2 {
+  margin: 1% 0;
+  font-size: 3.5rem;
+  font-family: "Merienda", cursive;
+  text-align: center;
+}
+main section h2:last-of-type {
+  margin: 5% 0;
+}
+.FirstDiv {
+  background: url("https://images.unsplash.com/photo-1573384666979-2b1e160d2d08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1839&q=80")
+    left/contain no-repeat;
+  background-size: 40%;
+  text-align: right;
+}
+.SecondDiv {
+  background: url("https://images.unsplash.com/photo-1523681504355-8b4860f99a58?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80")
+    right/contain no-repeat;
+  background-size: 40%;
+  text-align: left;
+}
+.LastDiv {
+  background: url("https://images.unsplash.com/flagged/photo-1573556291531-a5d957d7e4e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
+    left/contain no-repeat;
+  background-size: 40%;
+  text-align: right;
+}
+
+.FirstP {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
+.MainSecDiv {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 10% 2%;
+}
+/* 
+#########################################
+            Footer
+#########################################
+*/
+footer {
+  background: url("https://images.unsplash.com/photo-1524863479829-916d8e77f114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
+    top/cover no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+  padding: 3%;
+  position: sticky;
+  top: 0%;
+  box-shadow: 0px 0px 20px rgb(138, 130, 130);
+}
+footer section {
+  max-width: 1400px;
+  margin: 5% auto 10% auto;
+  position: relative;
+  padding: 5%;
+}
+
+footer h2 {
+  color: #fff;
+  opacity: 0.5;
+  margin-top: 0;
+}
+input {
+  display: block;
+  width: 100%;
+  margin: 3% auto;
+  padding: 3%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 10px rgb(138, 130, 130);
+}
+#FootForm {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+#Sub {
+  background: #100604;
+  color: #fff;
+  box-shadow: none;
+}
+#Sub:hover {
+  background: #1f0c08;
+}
+label {
+  text-align: left;
+  color: #fff;
+}
+.DateDiv {
+  width: 49%;
+  display: inline-block;
+  text-align: left;
+}
+.DateDiv:last-of-type {
+  text-align: right;
+}
